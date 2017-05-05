@@ -4,20 +4,114 @@
  #links{
    background-color: black;
    color:white;
-   padding: 10px;
+   padding: 10px 10px 0px 10px;;
    position: fixed;
    top:0;
    left:0;
-   font-family: "Montserrat";
+   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:700;
+  font-size: 1.6em;
+ }
+.linksScroll{
+   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:700;
+  font-size: 1.3em;
  }
 .menu{
   display:inline-block;
+  float:left;
+  margin-top:10px;
   padding:10px;
   list-style: none;
   height: 100%;
   text-align: center;
+  font-size: 0.5em;
+  vertical-align: middle;
 }
 .menu:hover{
   background-color: #18BC9C;
+}
+/*portfolio*/
 
+#portafolio {
+	font-size: 45px;
+}
+#portfolio {
+ font-family: "Montserrat";
+}
+.imgPortfolio {
+	width: 100%;
+	height: 100%;
+}
+/*portfolio*/
+
+#about {
+  background: #18BC9C;
+  color: #fff;
+}
+.hr-star {
+  font-family: font-awesome;
+  height: 5px;
+  border: 3px solid #fff;
+  max-width: 250px;
+  text-align: center;
+}
+.hr-star::after{
+  content: "☆";
+  background: #18BC9C;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -25px;
+  padding: 5px;
+}
+.texto {
+  font-family: Montserrat;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.textos-p {
+  font-family: lato;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.btn-download {
+  font-size: 20px;
+  font-family: lato;
+  border-radius: 6px;
+  background: #18bc9c;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.btn-download:hover {
+  background: #fff;
+  color: #18bc9c;
+  transition: .3s;
+}
+
+
+footer {
+   text-align: center;
+   color: #FFF;
+ }
+ .contacto {
+   padding: 70px;
+   background-color: #2C3E50;
+ }
+.copy {
+  background-color: #233140;
+}
+.txtContacto {
+  margin-bottom: 30px;
+}
+.linkFooter {
+  color: #18BC9C;
+}
+.iconosFooter {
+  font-size: 48px;
 }
